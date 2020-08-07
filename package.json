@@ -1,7 +1,7 @@
 {
   "name": "nlw2",
   "version": "1.0.0",
-  "description": "nlw2 project,
+  "description": "nlw2 project",
   "main": "index.js",
   "scripts": {
     "build": "npm install && node src/server.js",
