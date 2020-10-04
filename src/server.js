@@ -97,12 +97,11 @@ const nunjucks = require('nunjucks')
 nunjucks.configure('src/views', {
     express: server,
     noCache: true,
-})
+});
 
 //configurar arquivos estáticos (css, scripts, imagens)
 server.use(express.static("public"))
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
-
 .listen(5500);
